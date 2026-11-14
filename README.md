@@ -6,7 +6,7 @@
 
 | Resource | Link |
 |---|---|
-| **▶ Live app** (no install, any modern browser) | https://ipo735723-afk.github.io/LUNARIS/ |
+| **▶ Live app** (no install, any modern browser) | https://saoudbumjaid.github.io/LUNARIS/ |
 | **▶ 7-slide demo** | [docs/presentation/LUNARIS_Demo_7_Slides.pdf](docs/presentation/LUNARIS_Demo_7_Slides.pdf) |
 | **Full presentation** | [docs/presentation/LUNARIS_NASA_Space_Apps_2026.pdf](docs/presentation/LUNARIS_NASA_Space_Apps_2026.pdf) |
 | **Test results** | [docs/TEST_RESULTS.md](docs/TEST_RESULTS.md) |
@@ -80,7 +80,7 @@ Example — Malapert Massif, 15 January 2027: the shortest path falls below the 
 4. **Communication — three levels, kept apart:** Earth line of sight (computed) → a DSN complex sees the Moon (computed) → a real link (needs a scheduled antenna, *not modelled*). So “contact possible” is an upper bound.
 
 ## 8. Run it yourself
-**Easiest:** open the live app — https://ipo735723-afk.github.io/LUNARIS/
+**Easiest:** open the live app — https://saoudbumjaid.github.io/LUNARIS/
 
 **On your computer (Windows):** install Node.js 20+ from https://nodejs.org, then double-click `START_LUNARIS.bat` (opens http://localhost:5173).
 Without Node.js you can also double-click `OPEN_LUNARIS.bat` after building `web/dist`.
@@ -130,7 +130,7 @@ LUNARIS/
 | Abdulrahman Ahmed Albi | NV24142 |
 | Rashid Alothman | NV24219 |
 
-Nasser Centre for Science & Technology (NCST), Kingdom of Bahrain.
+Nasser Centre for Science & Technology (NCST), Kingdom of Bahrain. Thanks to our mentor, Sayed Hashim.
 
 ---
 
@@ -191,7 +191,7 @@ LUNARIS تطبيق ويب تفاعلي يجيب عن هذه الأسئلة با�
 - **٤.** **الاتصال بثلاثة مستويات منفصلة:** الأرض ظاهرة (محسوب) ← محطة DSN ترى القمر (محسوب) ← اتصال فعلي (يحتاج حجز هوائي — غير محسوب).
 
 ## ٨. طريقة التشغيل
-- **الأسهل:** افتح التطبيق مباشرة — https://ipo735723-afk.github.io/LUNARIS/
+- **الأسهل:** افتح التطبيق مباشرة — https://saoudbumjaid.github.io/LUNARIS/
 - **على جهازك (ويندوز):** ثبّت Node.js من https://nodejs.org ثم انقر مرتين على `START_LUNARIS.bat`.
 
 ## ٩. القيود (بكل وضوح)
@@ -210,6 +210,8 @@ LUNARIS تطبيق ويب تفاعلي يجيب عن هذه الأسئلة با�
 - Abdulrahman Ahmed Albi — NV24142
 - Rashid Alothman — NV24219
 
-مركز ناصر العلمي والتقني (NCST)، مملكة البحرين.
+مركز ناصر العلمي والتقني (NCST)، مملكة البحرين. شكرًا لمرشدنا Sayed Hashim.
+
+> نموذج أولي مستقل من طلاب، وليس تابعًا لناسا ولا معتمدًا منها.
 
 </div>
