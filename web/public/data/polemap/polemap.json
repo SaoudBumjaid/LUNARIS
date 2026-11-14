@@ -1,0 +1,11 @@
+{
+ "size": 1000,
+ "pxM": 400.0,
+ "xLeftM": -200000.0,
+ "yTopM": 200000.0,
+ "R": 1737400.0,
+ "projection": "polar stereographic (true scale at the pole), x toward 90E, y toward 0E",
+ "source": "NASA LRO LOLA 400 m south-pole DEM (via Lunar Horizon map.json, MIT); shaded relief by LUNARIS (sun from upper left, 15 deg)",
+ "elevMinM": -5491.0,
+ "elevMaxM": 7020.0
+}
