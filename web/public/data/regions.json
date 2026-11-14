@@ -1,0 +1,77 @@
+{
+  "generated": "2026-11-14T09:34:25Z",
+  "regions": [
+    {
+      "id": "connecting-ridge-roi4",
+      "name": "Connecting Ridge",
+      "lat": -89.45267485051342,
+      "lon": -137.14865265000893,
+      "sunAvg": 0.376,
+      "earthAvg": 0.299,
+      "siteSun": 0.868,
+      "siteEarth": 0.515,
+      "psrPct": 1.1,
+      "targets": 5
+    },
+    {
+      "id": "im2-athena",
+      "name": "IM-2 Athena (CLPS landing site)",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "sunAvg": 0.31,
+      "earthAvg": 0.628,
+      "siteSun": 0.439,
+      "siteEarth": 0.809,
+      "psrPct": 1.1,
+      "targets": 5
+    },
+    {
+      "id": "malapert",
+      "name": "Malapert Massif",
+      "lat": -86.0011419884911,
+      "lon": 2.055017377349379,
+      "sunAvg": 0.394,
+      "earthAvg": 0.529,
+      "siteSun": 0.76,
+      "siteEarth": 0.529,
+      "psrPct": 0.7,
+      "targets": 5
+    },
+    {
+      "id": "nobile-rim-1",
+      "name": "Nobile Rim 1",
+      "lat": -85.30028245695007,
+      "lon": 37.09893488804027,
+      "sunAvg": 0.378,
+      "earthAvg": 0.219,
+      "siteSun": 0.836,
+      "siteEarth": 0.576,
+      "psrPct": 0.5,
+      "targets": 4
+    },
+    {
+      "id": "nobile-rim-2",
+      "name": "Nobile Rim 2",
+      "lat": -84.13651928739266,
+      "lon": 57.936257250399606,
+      "sunAvg": 0.231,
+      "earthAvg": 0.572,
+      "siteSun": 0.51,
+      "siteEarth": 0.588,
+      "psrPct": 0.5,
+      "targets": 0
+    },
+    {
+      "id": "haworth",
+      "name": "Haworth",
+      "lat": -86.36851423413322,
+      "lon": -23.276449127628595,
+      "sunAvg": 0.379,
+      "earthAvg": 0.431,
+      "siteSun": 0.723,
+      "siteEarth": 0.58,
+      "psrPct": 0.4,
+      "targets": 5
+    }
+  ]
+}
