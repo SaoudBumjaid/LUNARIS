@@ -1,0 +1,56 @@
+{
+  "window": "2027-01-15 + 30 days, every 12 h",
+  "rover": {
+    "speedMps": 0.1,
+    "maxSlope": 18,
+    "panelW": 350,
+    "driveW": 250,
+    "idleW": 70,
+    "batteryWh": 2500,
+    "reservePct": 20,
+    "requireDTE": false,
+    "maxHours": 336
+  },
+  "results": {
+    "malapert": {
+      "slots": 60,
+      "both": 43,
+      "sunAwareOnly": 17,
+      "shortestOnly": 0,
+      "neither": 0,
+      "target": "PSR-1"
+    },
+    "haworth": {
+      "slots": 60,
+      "both": 20,
+      "sunAwareOnly": 21,
+      "shortestOnly": 0,
+      "neither": 19,
+      "target": "PSR-1"
+    },
+    "connecting-ridge-roi4": {
+      "slots": 60,
+      "both": 17,
+      "sunAwareOnly": 11,
+      "shortestOnly": 0,
+      "neither": 32,
+      "target": "PSR-1"
+    },
+    "nobile-rim-1": {
+      "slots": 60,
+      "both": 28,
+      "sunAwareOnly": 4,
+      "shortestOnly": 0,
+      "neither": 28,
+      "target": "PSR-1"
+    },
+    "im2-athena": {
+      "slots": 60,
+      "both": 28,
+      "sunAwareOnly": 4,
+      "shortestOnly": 0,
+      "neither": 28,
+      "target": "PSR-1"
+    }
+  }
+}

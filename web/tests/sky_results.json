@@ -1,0 +1,113 @@
+{
+ "fails": 0,
+ "results": [
+  {
+   "region": "Connecting Ridge",
+   "site": "Connecting Ridge",
+   "year": {
+    "meanSunPct": 87.1,
+    "losPct": 51.47,
+    "contactPct": 51.14,
+    "kWhPerDay": 7.32
+   },
+   "window30d_from_2027_01_15": {
+    "litPct": 100,
+    "losPct": 55.6,
+    "contactPct": 55.1,
+    "longestDarkH": 0,
+    "longestNoContactH": 320,
+    "score": 66.5
+   }
+  },
+  {
+   "region": "IM-2 Athena (CLPS landing site)",
+   "site": "IM-2 Athena (CLPS landing site)",
+   "year": {
+    "meanSunPct": 43.89,
+    "losPct": 81.06,
+    "contactPct": 79.78,
+    "kWhPerDay": 3.69
+   },
+   "window30d_from_2027_01_15": {
+    "litPct": 47.4,
+    "losPct": 81.5,
+    "contactPct": 80.4,
+    "longestDarkH": 379,
+    "longestNoContactH": 134,
+    "score": 42.4
+   }
+  },
+  {
+   "region": "Malapert Massif",
+   "site": "Malapert Massif",
+   "year": {
+    "meanSunPct": 75.86,
+    "losPct": 52.89,
+    "contactPct": 52.53,
+    "kWhPerDay": 6.37
+   },
+   "window30d_from_2027_01_15": {
+    "litPct": 79.9,
+    "losPct": 56.7,
+    "contactPct": 56.3,
+    "longestDarkH": 62,
+    "longestNoContactH": 312,
+    "score": 53.7
+   }
+  },
+  {
+   "region": "Nobile Rim 1",
+   "site": "Nobile Rim 1",
+   "year": {
+    "meanSunPct": 83.45,
+    "losPct": 57.75,
+    "contactPct": 57.35,
+    "kWhPerDay": 7.01
+   },
+   "window30d_from_2027_01_15": {
+    "litPct": 98.3,
+    "losPct": 60.6,
+    "contactPct": 60.1,
+    "longestDarkH": 12,
+    "longestNoContactH": 284,
+    "score": 65.7
+   }
+  },
+  {
+   "region": "Nobile Rim 2",
+   "site": "Nobile Rim 2",
+   "year": {
+    "meanSunPct": 50.87,
+    "losPct": 58.89,
+    "contactPct": 58.46,
+    "kWhPerDay": 4.27
+   },
+   "window30d_from_2027_01_15": {
+    "litPct": 53.5,
+    "losPct": 61.8,
+    "contactPct": 61.4,
+    "longestDarkH": 335,
+    "longestNoContactH": 275,
+    "score": 34.5
+   }
+  },
+  {
+   "region": "Haworth",
+   "site": "Haworth",
+   "year": {
+    "meanSunPct": 72.22,
+    "losPct": 58.18,
+    "contactPct": 57.76,
+    "kWhPerDay": 6.07
+   },
+   "window30d_from_2027_01_15": {
+    "litPct": 75.6,
+    "losPct": 61.1,
+    "contactPct": 60.7,
+    "longestDarkH": 105,
+    "longestNoContactH": 280,
+    "score": 48.1
+   }
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+[
+  {
+    "region": "connecting-ridge-roi4",
+    "target": "PSR-1",
+    "rows": [
+      {
+        "departDay": 0,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 28.6,
+        "waitH": 0,
+        "minBatt": 45,
+        "lengthKm": 7.01,
+        "ms": 178
+      },
+      {
+        "departDay": 7,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 28.6,
+        "waitH": 0,
+        "minBatt": 22,
+        "lengthKm": 7.01,
+        "ms": 118
+      },
+      {
+        "departDay": 14,
+        "shortestOk": false,
+        "sunAwareOk": false,
+        "sunAwareH": 16.2,
+        "waitH": 0.5,
+        "minBatt": 23,
+        "lengthKm": 4.54,
+        "ms": 381,
+        "reason": "Leg 2: Battery cannot cover the darkness along every feasible corridor."
+      },
+      {
+        "departDay": 21,
+        "shortestOk": false,
+        "sunAwareOk": false,
+        "sunAwareH": 15.6,
+        "waitH": 0,
+        "minBatt": 20,
+        "lengthKm": 4.16,
+        "ms": 379,
+        "reason": "Leg 2: Battery cannot cover the darkness along every feasible corridor."
+      }
+    ]
+  },
+  {
+    "region": "im2-athena",
+    "target": "PSR-1",
+    "rows": [
+      {
+        "departDay": 0,
+        "shortestOk": false,
+        "sunAwareOk": false,
+        "sunAwareH": 0,
+        "waitH": 0,
+        "minBatt": 0,
+        "lengthKm": 0,
+        "ms": 1026,
+        "reason": "Leg 1: Battery cannot cover the darkness along every feasible corridor."
+      },
+      {
+        "departDay": 7,
+        "shortestOk": false,
+        "sunAwareOk": false,
+        "sunAwareH": 0,
+        "waitH": 0,
+        "minBatt": 0,
+        "lengthKm": 0,
+        "ms": 1108,
+        "reason": "Leg 1: Battery cannot cover the darkness along every feasible corridor."
+      },
+      {
+        "departDay": 14,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 16.9,
+        "waitH": 0,
+        "minBatt": 100,
+        "lengthKm": 5.51,
+        "ms": 111
+      },
+      {
+        "departDay": 21,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 16.9,
+        "waitH": 0,
+        "minBatt": 100,
+        "lengthKm": 5.51,
+        "ms": 119
+      }
+    ]
+  },
+  {
+    "region": "malapert",
+    "target": "PSR-1",
+    "rows": [
+      {
+        "departDay": 0,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 14.3,
+        "waitH": 0,
+        "minBatt": 60,
+        "lengthKm": 4.03,
+        "ms": 88
+      },
+      {
+        "departDay": 7,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 14.3,
+        "waitH": 0,
+        "minBatt": 72,
+        "lengthKm": 4.03,
+        "ms": 78
+      },
+      {
+        "departDay": 14,
+        "shortestOk": false,
+        "sunAwareOk": true,
+        "sunAwareH": 14.7,
+        "waitH": 0,
+        "minBatt": 20,
+        "lengthKm": 4.2,
+        "ms": 76,
+        "reason": "Leg 2: Battery below 20% reserve after 4.3 h (driving in shadow without recharge stops)."
+      },
+      {
+        "departDay": 21,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 14.3,
+        "waitH": 0,
+        "minBatt": 96,
+        "lengthKm": 4.03,
+        "ms": 75
+      }
+    ]
+  },
+  {
+    "region": "nobile-rim-1",
+    "target": "PSR-1",
+    "rows": [
+      {
+        "departDay": 0,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 19.8,
+        "waitH": 0,
+        "minBatt": 97,
+        "lengthKm": 4.85,
+        "ms": 48
+      },
+      {
+        "departDay": 7,
+        "shortestOk": false,
+        "sunAwareOk": false,
+        "sunAwareH": 10.5,
+        "waitH": 0,
+        "minBatt": 21,
+        "lengthKm": 2.57,
+        "ms": 80,
+        "reason": "Leg 2: Battery cannot cover the darkness along every feasible corridor."
+      },
+      {
+        "departDay": 14,
+        "shortestOk": false,
+        "sunAwareOk": false,
+        "sunAwareH": 9.6,
+        "waitH": 0,
+        "minBatt": 28,
+        "lengthKm": 2.43,
+        "ms": 43,
+        "reason": "Leg 2: Battery cannot cover the darkness along every feasible corridor."
+      },
+      {
+        "departDay": 21,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 19.8,
+        "waitH": 0,
+        "minBatt": 100,
+        "lengthKm": 4.85,
+        "ms": 45
+      }
+    ]
+  },
+  {
+    "region": "nobile-rim-2",
+    "targets": 0
+  },
+  {
+    "region": "haworth",
+    "target": "PSR-1",
+    "rows": [
+      {
+        "departDay": 0,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 13.7,
+        "waitH": 0,
+        "minBatt": 52,
+        "lengthKm": 3.66,
+        "ms": 53
+      },
+      {
+        "departDay": 7,
+        "shortestOk": false,
+        "sunAwareOk": false,
+        "sunAwareH": 6.6,
+        "waitH": 0,
+        "minBatt": 35,
+        "lengthKm": 1.83,
+        "ms": 44,
+        "reason": "Leg 2: Battery cannot cover the darkness along every feasible corridor."
+      },
+      {
+        "departDay": 14,
+        "shortestOk": true,
+        "sunAwareOk": true,
+        "sunAwareH": 13.7,
+        "waitH": 0,
+        "minBatt": 33,
+        "lengthKm": 3.66,
+        "ms": 42
+      },
+      {
+        "departDay": 21,
+        "shortestOk": false,
+        "sunAwareOk": true,
+        "sunAwareH": 18,
+        "waitH": 0,
+        "minBatt": 20,
+        "lengthKm": 5.03,
+        "ms": 48,
+        "reason": "Leg 2: Battery below 20% reserve after 2.0 h (driving in shadow without recharge stops)."
+      }
+    ]
+  }
+]
