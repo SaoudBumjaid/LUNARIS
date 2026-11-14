@@ -1,0 +1,185 @@
+{
+  "width": 200,
+  "height": 200,
+  "cellSize": 40.0,
+  "x0": -4010.0,
+  "y0": 4010.0,
+  "projection": "local east/north grid centred on -89.45267, -137.14865 (great-circle offsets, metres)",
+  "naz": 72,
+  "hzScale": 5.0,
+  "hzOffset": 10.0,
+  "sunRadiusDeg": 0.2666,
+  "R": 1737400.0,
+  "sites": [
+    {
+      "id": "connecting-ridge-roi4",
+      "name": "Connecting Ridge",
+      "cell": [
+        100,
+        100
+      ],
+      "origin": "Connecting Ridge (RoI 4): published coordinates (-89.4527, -137.1487) \u2014 Barker et al. 2021, PSS 203:105119, Table 2, Site 1 RoI 4 centroid (stereographic X, Y)"
+    },
+    {
+      "id": "auto-A",
+      "name": "Auto-candidate A",
+      "cell": [
+        100,
+        100
+      ],
+      "origin": "auto-suggested by LUNARIS (max slope < 10\u00b0 within 150 m, high Sun/Earth)"
+    },
+    {
+      "id": "auto-B",
+      "name": "Auto-candidate B",
+      "cell": [
+        171,
+        21
+      ],
+      "origin": "auto-suggested by LUNARIS (max slope < 10\u00b0 within 150 m, high Sun/Earth)"
+    },
+    {
+      "id": "auto-C",
+      "name": "Auto-candidate C",
+      "cell": [
+        28,
+        183
+      ],
+      "origin": "auto-suggested by LUNARIS (max slope < 10\u00b0 within 150 m, high Sun/Earth)"
+    }
+  ],
+  "targets": [
+    {
+      "id": "PSR-1",
+      "areaKm2": 0.104,
+      "centroid": [
+        27,
+        92
+      ],
+      "edgeCell": [
+        19,
+        92
+      ],
+      "status": "inferred",
+      "approachDistM": 40.0,
+      "note": "Permanently shadowed per LUNARIS horizon computation. Potential cold trap \u2014 NOT an observed ice detection. edgeCell = nearest rover-traversable approach point."
+    },
+    {
+      "id": "PSR-2",
+      "areaKm2": 0.088,
+      "centroid": [
+        40,
+        161
+      ],
+      "edgeCell": [
+        33,
+        149
+      ],
+      "status": "inferred",
+      "approachDistM": 411.8,
+      "note": "Permanently shadowed per LUNARIS horizon computation. Potential cold trap \u2014 NOT an observed ice detection. edgeCell = nearest rover-traversable approach point."
+    },
+    {
+      "id": "PSR-3",
+      "areaKm2": 0.07,
+      "centroid": [
+        36,
+        104
+      ],
+      "edgeCell": [
+        40,
+        100
+      ],
+      "status": "inferred",
+      "approachDistM": 113.1,
+      "note": "Permanently shadowed per LUNARIS horizon computation. Potential cold trap \u2014 NOT an observed ice detection. edgeCell = nearest rover-traversable approach point."
+    },
+    {
+      "id": "PSR-4",
+      "areaKm2": 0.066,
+      "centroid": [
+        150,
+        71
+      ],
+      "edgeCell": [
+        152,
+        67
+      ],
+      "status": "inferred",
+      "approachDistM": 56.6,
+      "note": "Permanently shadowed per LUNARIS horizon computation. Potential cold trap \u2014 NOT an observed ice detection. edgeCell = nearest rover-traversable approach point."
+    },
+    {
+      "id": "PSR-5",
+      "areaKm2": 0.062,
+      "centroid": [
+        30,
+        144
+      ],
+      "edgeCell": [
+        33,
+        147
+      ],
+      "status": "inferred",
+      "approachDistM": 40.0,
+      "note": "Permanently shadowed per LUNARIS horizon computation. Potential cold trap \u2014 NOT an observed ice detection. edgeCell = nearest rover-traversable approach point."
+    }
+  ],
+  "files": {
+    "elevation": "elevation.bin",
+    "slope": "slope.bin",
+    "rough": "rough.bin",
+    "horizon": "horizon.bin",
+    "sunAnnual": "sun_annual.bin",
+    "earthAnnual": "earth_annual.bin",
+    "psr": "psr.bin",
+    "ephem": "ephem.json"
+  },
+  "mode": "real",
+  "regionId": "connecting-ridge-roi4",
+  "grid": "enu",
+  "regionName": "Connecting Ridge \u2014 8 \u00d7 8 km around 89.453\u00b0S, -137.15\u00b0E",
+  "center": {
+    "x": 0.0,
+    "y": 0.0,
+    "lat": -89.45267485051342,
+    "lon": -137.14865265000893
+  },
+  "observerHeightM": 2.0,
+  "provenance": [
+    {
+      "item": "Terrain (near field, 8 km)",
+      "source": "NASA LRO LOLA south-pole DEMs (Barker et al. 2023, NASA GSFC PGDA) via LUNAR//OPS local patches (Apache-2.0)",
+      "resolution": "20 m patch; slope at 20 m; analysis grid 40 m",
+      "date": "LOLA 2009\u20132023, patches Oct 2026",
+      "real": true
+    },
+    {
+      "item": "Terrain (far field to 300 km)",
+      "source": "NASA LRO LOLA LDEM_80S_80M + LDEM_75S_120M, 400 m means, via Lunar Horizon (MIT)",
+      "resolution": "400 m",
+      "date": "PDS release",
+      "real": true
+    },
+    {
+      "item": "Sun / Earth directions",
+      "source": "JPL DE421 (Skyfield) + IAU 2009 lunar rotation model (Archinal et al. 2011); apparent directions from the Moon, shifted to the surface observer \u2014 checked against JPL Horizons, max error 0.003\u00b0",
+      "resolution": "1 h",
+      "date": "2027-01-01T00 + 365 d",
+      "real": true
+    },
+    {
+      "item": "Horizons, sunlight, Earth view, PSR, slope, routes",
+      "source": "Computed by LUNARIS",
+      "resolution": "40 m, 5\u00b0 azimuth bins",
+      "date": "2026-11-14",
+      "real": false
+    }
+  ],
+  "warnings": [
+    "Terrain smaller than ~40 m (including boulders) is not resolved. Slope is the maximum of 20 m slopes in each 40 m cell.",
+    "Earth visibility is geometric line-of-sight only \u2014 not a radio link prediction (no DSN schedule).",
+    "PSRs are computed for one year of geometry only; they are potential cold traps, not confirmed ice.",
+    "Planning prototype \u2014 not flight software, not NASA-endorsed."
+  ]
+}
