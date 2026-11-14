@@ -1,0 +1,20 @@
+{
+  "site": "Connecting Ridge (RoI 4)",
+  "period": "2024-01-01..2026-01-01",
+  "reference": "Barker et al. 2021, PSS 203:105119, Table 2",
+  "z5m": {
+    "avg_visible_sun_pct": 89.23,
+    "longest_shadow_days": 3.5
+  },
+  "z1m": {
+    "avg_visible_sun_pct": 83.68,
+    "longest_shadow_days": 6.21
+  },
+  "published": {
+    "z5m_avg_pct": 88.12,
+    "z5m_longest_shadow_days": 4.0,
+    "z1m_avg_pct": 69.61
+  },
+  "criteria": "z5m average 83-93 %, z5m longest shadow <= 6 days (fixed before running)",
+  "pass": true
+}

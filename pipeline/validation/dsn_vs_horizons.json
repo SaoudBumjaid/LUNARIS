@@ -1,0 +1,11 @@
+{
+  "check": "Moon elevation seen from the Goldstone DSN complex (LUNARIS/Skyfield + DE421) vs NASA JPL Horizons",
+  "station": {"lat": 35.4259, "lonE": 243.1105, "height_km": 1.0},
+  "horizons_query": "COMMAND=301, CENTER=coord@399 GEODETIC SITE_COORD=243.1105,35.4259,1.0, QUANTITIES=4, APPARENT=AIRLESS, 2027-01-01 00:00 to 2027-01-31 00:00, 1 h",
+  "samples": 721,
+  "max_abs_elevation_diff_deg": 0.0013,
+  "flag_agreement_moon_above_10deg": "721 / 721",
+  "result": "PASS",
+  "checked_on": "2026-11-14",
+  "note": "Fetched through the JPL Horizons API in a browser and compared in-page; only the summary is stored here."
+}
