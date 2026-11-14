@@ -130,7 +130,7 @@ LUNARIS/
 | Abdulrahman Ahmed Albi | NV24142 |
 | Rashid Alothman | NV24219 |
 
-Nasser Centre for Science & Technology (NCST), Kingdom of Bahrain. Thanks to our mentor, Sayed Hashim.
+Nasser Centre for Science & Technology (NCST), Kingdom of Bahrain.
 
 ---
 
