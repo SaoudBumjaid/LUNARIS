@@ -1,0 +1,5 @@
+# Offline builder (build_open.py, validate_*.py) — uses only data bundled in this repository
+numpy>=1.24
+scipy>=1.10
+skyfield>=1.48
+skyfield-data>=6.0
