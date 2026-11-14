@@ -1,9 +1,10 @@
 # LUNARIS — Land, then drive.
 
 **NASA Space Apps Challenge 2026 · Challenge: Lunar Landing Site Navigator**
+
 **Team Karak & Cosmos · Nasser Centre for Science & Technology (NCST), Kingdom of Bahrain**
 
-| | |
+| Resource | Link |
 |---|---|
 | **▶ Live app** (no install, any modern browser) | https://ipo735723-afk.github.io/LUNARIS/ |
 | **▶ 7-slide demo** | [docs/presentation/LUNARIS_Demo_7_Slides.pdf](docs/presentation/LUNARIS_Demo_7_Slides.pdf) |
